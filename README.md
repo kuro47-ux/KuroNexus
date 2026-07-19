@@ -7,7 +7,7 @@ Et voici le [listing](docs/commands.md) de toutes les commandes du bot!
 
 ---
 
-## <img src="https://www.svgrepo.com/show/315194/folder-open.svg"> Sommaire des cogs
+## <img src="https://www.svgrepo.com/show/315194/folder-open.svg" width="45" height="45"/> Sommaire des cogs
 
 | Cog | Rôle | Doc dédiée |
 |---|---|---|
