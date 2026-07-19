@@ -12,18 +12,17 @@ load_dotenv()
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DB_PATH = os.path.join(BASE_DIR, "gw", "database.db")
 
-
-class GWCog(commands.Cog):
-    def __init__(self, bot):
-        self.bot = bot
-
-    def has_role_permission(self, *role_ids):
+def has_role_permission(*role_ids):
         async def predicate(interaction: discord.Interaction):
             if any(role.id in role_ids for role in interaction.user.roles):
                 return True
             await interaction.response.send_message("❌ Permission refusée", ephemeral=True)
             return False
         return commands.check(predicate)
+
+class GWCog(commands.Cog):
+    def __init__(self, bot):
+        self.bot = bot
 
     class GWView(discord.ui.View):
         def __init__(self, giveaway_id):
