@@ -143,4 +143,4 @@ Ce projet est distribué sous la licence présente dans le fichier [`LICENSE`](.
 
 ## ⚠️ Attention
 
-Ce GitHub est le seul endroit où vous pouvez obtenir le code du bot. Si vous l'avez acheté ou même téléchargé depuis un autre site, cela est fort probable que cela soit une version modifiée de mon code!
+Ce GitHub est le seul endroit où vous pouvez obtenir le code du bot. Si vous l'avez acheté ou même téléchargé depuis un autre site, cela est fort probable que cela soit une version modifiée de mon code! Je ne prends aucune responsabilité de vos erreurs, pour plus d'informations veuillez consulter le fichier [`LICENSE`](./LICENSE).
