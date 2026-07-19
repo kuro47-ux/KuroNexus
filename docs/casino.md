@@ -46,7 +46,7 @@ C'est le plus gros cog du bot : économie virtuelle (coins, gems, tickets, jeton
 }
 ```
 
-Ce fichier contient actuellement des IDs d'exemple (probablement ceux du serveur d'origine de Kuro) : il faut que tu les remplaces par les tiens, sinon le bot pointera vers des salons/rôles qui n'existent pas sur ton serveur. Voici ce que fait chaque champ, avec la ligne du code qui l'utilise pour que tu comprennes bien l'effet :
+Ce fichier contient actuellement des IDs d'exemple (de mon serv) : il faut que tu les remplaces par les tiens, sinon le bot pointera vers des salons/rôles qui n'existent pas sur ton serveur. Voici ce que fait chaque champ, avec la ligne du code qui l'utilise pour que tu comprennes bien l'effet :
 
 ### `game_levels`
 Le niveau minimum requis pour débloquer chaque jeu (le cog vérifie ça à la ligne 418 de `casino_cog.py`). `coinflip` et `dice` sont à `0` donc accessibles à tous dès le départ ; `slots` et `blackjack` peuvent aussi être débloqués plus tôt via un objet acheté en boutique (`slots_premium` / `blackjack_vip`).
