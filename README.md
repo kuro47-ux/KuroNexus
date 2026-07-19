@@ -139,7 +139,7 @@ La synchronisation des commandes slash (`/`) peut prendre jusqu'à une heure pou
 
 ## ❓ Questions
 
-Si vous avez la moindre question ou même pour report un bug vous pour me contacter depuis mon compte: `_kuro____`
+Si vous avez la moindre question ou même pour report un bug vous pour me contacter depuis mon compte discord: `_kuro____`
 
 ## 📄 Licence
 
