@@ -110,7 +110,7 @@ Le fichier `config_cogs.json` à la racine détermine quels modules se chargent 
 }
 ```
 
-Pas besoin de toucher au code pour ça, `main.py` lit simplement ce fichier et charge un par un les cogs marqués sur `true`.
+Pas besoin de toucher au code `main.py` pour ça, lit simplement ce fichier et charge un par un les cogs marqués sur `true`.
 
 Une fois que tu as coché tes cogs, va faire un tour dans le fichier de doc de chacun (table plus haut) : certains ont des IDs de salons ou de rôles à renseigner avant de fonctionner correctement.
 
