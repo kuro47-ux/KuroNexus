@@ -24,26 +24,4 @@ L'ID du salon où sera posté le message d'au revoir quand quelqu'un quitte le s
 
 Remplace les deux valeurs d'exemple par les IDs de tes propres salons (Mode développeur activé dans Discord → clic droit sur le salon → **Copier l'identifiant**). Rien d'autre à faire, les deux salons peuvent d'ailleurs être identiques si tu préfères tout centraliser dans un seul salon "arrivées/départs".
 
----
 
-## 🩹 Un petit détail cosmétique à corriger
-
-En regardant le texte des embeds (lignes 27 et 49), les titres contiennent des `??` à la place d'emojis :
-
-```python
-title="?? Bienvenue chez KYOMA !",
-```
-```python
-title="?? Un membre nous a quittés",
-```
-
-C'est visiblement un souci d'encodage qui a mangé les emojis d'origine lors d'une sauvegarde du fichier. Ce n'est pas bloquant — le bot fonctionnera très bien tel quel — mais si tu veux un rendu plus propre, remplace simplement les `??` par les emojis de ton choix, par exemple :
-
-```python
-title="👋 Bienvenue chez KYOMA !",
-```
-```python
-title="😢 Un membre nous a quittés",
-```
-
-Profites-en aussi pour vérifier le petit `?` isolé ligne 29 (`f"Bienvenue {member.mention} ! ?\n\n"`), même souci.
