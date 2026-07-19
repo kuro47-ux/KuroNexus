@@ -1,0 +1,12 @@
+{
+    "admin": true,
+    "casino": false,
+    "debate": false,
+    "dilemma": false,
+    "gw": true,
+    "quote": true,
+    "stats": true,
+    "ticket": true,
+    "voc": false,
+    "welcome": false
+}
