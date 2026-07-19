@@ -21,8 +21,6 @@ Le jumeau du cog `debate` : chaque semaine, il envoie un dilemme ("tu préfères
 }
 ```
 
-Note au passage que la clé s'appelle encore `debate_channel_id` même dans le config du dilemme (petit copier-coller du cog `debate` visiblement) — c'est normal, `dilemma_cog.py` lit bien cette clé à la ligne 14, ne la renomme surtout pas dans le JSON sinon le bot plantera au démarrage.
-
 ### `debate_channel_id`
 L'ID du salon texte où le dilemme sera publié chaque semaine. Remplace la valeur d'exemple par l'ID de ton salon.
 
