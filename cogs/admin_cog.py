@@ -337,7 +337,7 @@ class AdminCog(commands.Cog):
     @app_commands.command(name="unmute", description="Démuter un utilisateur")
     @has_role_permission(None) #<-- Paste the IDs of the roles authorized to use this command inside the parentheses; if you leave it on None, everyone will be able to use the command
     async def unmute(self, interaction: discord.Interaction, member: discord.Member):
-        role = member.guild.get_role(1489709474263339190)
+        role = member.guild.get_role(ROLE_ID)
         if role in member.roles:
             await member.remove_roles(role)
             await interaction.response.send_message(embed=discord.Embed(title="UnMute 🔈", description=f"Le membre {member.mention} a été unmute.", color=discord.Color.green()))
