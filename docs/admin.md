@@ -52,9 +52,9 @@ Chaque ligne s'édite indépendamment, donc rien ne t'empêche de laisser certai
 
 ## 🎭 Le rôle de mute
 
-Ici, il y a un point important à ne pas rater : le rôle donné quand on mute quelqu'un est défini à **deux endroits différents**, et il faut que ce soit le même rôle des deux côtés.
+Ici, il y a un point important à ne pas rater : le rôle donné quand on mute quelqu'un est défini à **un seul endroit**
 
-**1. Quand on applique le mute** — ligne 69, dans `MuteSelect.callback` :
+Ligne 69, dans `MuteSelect.callback` :
 
 ```python
 ROLE_ID = None #<-- Assign the role that is to be given to the mute person
@@ -65,14 +65,6 @@ Remplace `None` par l'ID du rôle "Muted" de ton serveur (celui qui doit avoir l
 ```python
 ROLE_ID = 123456789012345678
 ```
-
-**2. Quand on retire le mute** — ligne 340, dans la commande `/unmute`, l'ID est écrit en dur dans le code :
-
-```python
-role = member.guild.get_role(1489709474263339190)
-```
-
-Remplace ce nombre par **exactement le même ID** que celui que tu as mis à la ligne 69, sinon `/unmute` cherchera à retirer un rôle qui n'est pas celui qui a été donné, et ne fonctionnera jamais.
 
 ---
 
