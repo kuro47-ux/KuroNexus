@@ -1,6 +1,6 @@
 # KuroNexus 🌙
 
-Un bot Discord "multitâche" écrit par Kuro : modération, casino, statistiques, tickets, vocaux temporaires, giveaways, débats hebdomadaires... bref, un vrai couteau suisse pour ton serveur.
+Un bot Discord "multitâche" écrit par Kuro un jeune dev Français : modération, casino, statistiques, tickets, vocaux temporaires, giveaways, débats hebdomadaires... bref, un vrai couteau suisse pour ton serveur.
 
 Ce dépôt est découpé en **cogs** (un cog = un module indépendant, un peu comme un plugin). Chaque cog peut être activé ou désactivé sans toucher au reste du bot, et certains ont leur propre fichier de configuration. Ce README t'explique comment tout installer et démarrer, et un fichier séparé détaille chaque cog un par un dans le dossier [`docs/`](./docs).
 
